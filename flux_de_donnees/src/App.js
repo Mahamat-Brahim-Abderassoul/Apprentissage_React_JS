@@ -4,6 +4,8 @@ function App() {
   const [isTerAccepted , setIsTermAccepted] =useState(false)
 
   return <>
+  <h1>FLUX DE DONNEES DANS REACT JS </h1>
+    <p>Ceci est un exemple d'utilisation de formulaire de condition et peut avoir des utilites dans l'avancement de projet .</p>
   <form>
     <CGUCheckbox checked = {isTerAccepted} onCheck = {setIsTermAccepted} />
     <button disabled = {!isTerAccepted}>Envoyer le formulaire</button>
@@ -14,8 +16,7 @@ function App() {
 
 function CGUCheckbox ({checked , onCheck}){
   return <div>
-    <h1>FLUX DE DONNEES DANS REACT JS </h1>
-    <p>Ceci est un exemple d'utilisation de formulaire de condition et peut avoir des utilites dans l'avancement de projet .</p>
+    
     <label>
       <input 
       type='checkbox'
