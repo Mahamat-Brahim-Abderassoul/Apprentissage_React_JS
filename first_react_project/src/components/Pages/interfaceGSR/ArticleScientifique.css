@@ -1,0 +1,81 @@
+.title-form {
+    text-align: center; /* Centrer le texte */
+    font-style: italic; /* Mettre le texte en italique */
+    margin-bottom: 10px;
+  }  
+
+.article-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  .partie {
+    /* font-style: italic; */
+    /* margin-top: 50px; */
+   /* margin-bottom: 20px;  Ajouter de l'espace en dessous du titre */
+    border-bottom: 1px solid #ccc; /* Ajouter une bordure en dessous du titre */
+   /* padding-bottom: 10px; /* Ajouter un peu d'espace entre la bordure et le contenu suivant */
+  }
+  
+  .form-group {
+        margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 15px; /* Augmentez la marge en dessous de l'étiquette */
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 20px; /* Ajoutez une marge en haut du champ */
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 10px; /* Ajoute un espace de 10px à gauche et à droite des boutons */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button.delete-btn {
+    padding: 10px 20px;
+    background-color: #ff0000; /* Couleur rouge */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }  
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .required {
+    color: red;
+  }
+  /* .icon{
+    background-color: #1c1c1c
+ 
+  } */
+  .icon {
+    display: flex;
+    align-items: center;
+}
+
+
+.content {
+    margin-left: 10px; /* Ajustez la marge selon vos besoins */
+}
+
+

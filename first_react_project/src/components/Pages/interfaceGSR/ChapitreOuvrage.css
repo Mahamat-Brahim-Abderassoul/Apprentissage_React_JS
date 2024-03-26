@@ -1,0 +1,81 @@
+.title-form {
+    text-align: center; 
+    font-style: italic; 
+    margin-bottom: 10px;
+}  
+
+.article-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.partie {
+    border-bottom: 1px solid #ccc; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px; 
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 20px; 
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px; 
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.delete-btn {
+    background-color: #ff0000; 
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.prev-btn {
+    background-color: #ffa500; /* Orange */
+  }
+  
+  .submit-btn {
+    background-color: #007bff; /* Bleu */
+    color: #fff;
+  }
+  
+  .next-btn {
+    background-color: #32cd32; /* Vert */
+  }
+  
+.required {
+    color: red;
+}
+/*
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+ .content {
+    margin-left: 10px;
+} */
