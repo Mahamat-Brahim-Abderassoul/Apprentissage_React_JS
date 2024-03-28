@@ -10,7 +10,8 @@ const These = () => {
     encadrant: '',
     codeStructure: '',
     fichier: null,
-    action: ''
+    action: '',
+    cotutelle:''
   });
 
   const handleChange = (e) => {
@@ -64,7 +65,7 @@ const These = () => {
           </label>
           <label>
             Année de première inscription <span className="required">*</span> :
-            <input type='number' name='anneePremiereInscription' value={formData.anneePremiereInscription} onChange={handleChange} required/>
+            <input type='number' name='anneePremiereInscription' value={formData.anneePremiereInscription} onChange={handleChange} min={0}/>
           </label>
           <label>
             Sujet <span className="required">*</span> :
@@ -85,6 +86,11 @@ const These = () => {
           <label>
             Action <span className="required">*</span> :
             <textarea name='action' value={formData.action} onChange={handleChange} required></textarea>
+          </label>
+          <label>
+            Cotutelle <span className="required">*</span>:
+            <input type="radio" name="cotutelle" value="noncotutelle" onChange={handleChange} required/> Non cotutelle
+            <input type="radio" name="cotutelle" value="cotutelle" onChange={handleChange} required/> Cotutelle
           </label>
         </div>
 

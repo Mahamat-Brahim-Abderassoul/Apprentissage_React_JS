@@ -132,7 +132,10 @@ function ProductTable({produits}){
 //import Brevet from "./components/Pages/interfaceGSR/Brevet"
 //import Habilitation from "./components/Pages/interfaceGSR/Habilitation";
 //import Mastere from "./components/Pages/interfaceGSR/Mastere";
-import These from "./components/Pages/interfaceGSR/These";
+//import Convension from "./components/Pages/Events/Convension";
+import Projet from "./components/Pages/Events/Projet";
+//import ManifestationScientifique from "./components/Pages/Events/ManifestationScientifique";
+//import These from "./components/Pages/interfaceGSR/These";
 function App(){
   return(
     <div>
@@ -141,8 +144,11 @@ function App(){
       <ChapitreOuvrage></ChapitreOuvrage> 
       <Brevet></Brevet> 
       <Habilitation></Habilitation
-      <Mastere></Mastere>>*/}
+      <Mastere></Mastere>>
       <These></These>
+      <ManifestationScientifique></ManifestationScientifique>
+      <Convension></Convension>*/}
+      <Projet></Projet>
     </div>
   )
 }
